@@ -1,0 +1,19 @@
+.playerWrapper {
+  width: 640px;
+  height: 360px;
+  padding-bottom: 26px;
+}
+
+.reactPlayer {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 699px) {
+  .playerWrapper {
+    width: 320px;
+    height: 180px;
+    padding-bottom: 18px;
+  }
+}
